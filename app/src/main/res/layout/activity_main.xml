@@ -25,10 +25,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/image_coal"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="-2dp"
         android:layout_toStartOf="@+id/text_poor"
-        android:text="I am"
+        android:layout_toLeftOf="@+id/text_poor"
+        android:text="@string/i_am_poor"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="50sp" />
+        android:textSize="40sp" />
 
     <TextView
         android:id="@+id/text_poor"
@@ -36,9 +40,12 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/image_coal"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="78dp"
-        android:text="Poor"
-        android:textSize="50sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="104dp"
+        android:layout_marginRight="104dp"
+        android:layout_marginBottom="0dp"
+        android:text="@string/poor"
+        android:textSize="40sp"
         android:textStyle="bold" />
 
 </RelativeLayout>
